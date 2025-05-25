@@ -5,8 +5,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+
+  font-weight: 400;
 }
 
 .background-box {
@@ -15,11 +17,14 @@ body {
   bottom: 50px;
   left: 80px;
   right: 80px;
-  background-color: #68abf9;
+  background-color: #f3f6f9;
   border-radius: 20px;
   z-index: 0;
 }
 
+p {
+  font-size: 15px;
+}
 .qr-card {
   position: relative;
   width: 300px;
@@ -34,7 +39,7 @@ body {
 }
 
 .qr-card:hover {
-  box-shadow: 0 50px 100px rgba(3, 53, 250, 0.15);
+  box-shadow: 0 50px 100px rgba(13, 173, 236, 0.15);
 }
 
 .qr-image {
@@ -47,7 +52,7 @@ body {
 
 .qr-title {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #1f3251;
   margin-bottom: 12px;
   padding: 0 10px;
